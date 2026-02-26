@@ -1,1 +1,59 @@
-theme: jekyll-theme-slate
+# Site Settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "air"
+
+title: "Katherine O'Toole"
+subtitle: "PhD Student · Northwestern University"
+name: "Katherine O'Toole"
+description: "Academic portfolio of Katherine O'Toole – creativity, HCI, and computational social science researcher at Northwestern University."
+url: "https://kmotoole.github.io"
+baseurl: "/About"
+repository: "kmotoole/About"
+
+# Author / sidebar profile
+author:
+  name: "Katherine O'Toole"
+  avatar: "/assets/images/KOHeadshot.jpg"
+  bio: "PhD student in Technology and Social Behavior at Northwestern University, researching creativity, HCI, and computational social science."
+  location: "Evanston, IL"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kmarie.otoole@gmail.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=REPLACE_ME"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/REPLACE_ME"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kmotoole"
+
+# Reading / build
+locale: "en-US"
+words_per_minute: 200
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Collections / pages
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
