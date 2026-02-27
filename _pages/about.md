@@ -1,6 +1,10 @@
 ---
+permalink: /
 title: "About"
-permalink: /about/
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 I am a PhD student in Northwestern University's [Technology and Social Behavior](https://tsb.northwestern.edu/) program, and work with [Agnes Horvat](https://agneshorvat.soc.northwestern.edu/) in the [LINK](https://link.soc.northwestern.edu/) lab.
