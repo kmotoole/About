@@ -45,6 +45,9 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.toc %}
+          {% include toc title=page.toc_label icon=page.toc_icon %}
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
